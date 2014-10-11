@@ -10,7 +10,7 @@ a {
 	text-decoration: none;
 }
 
-img {
+img, object {
 	max-width: 100%;
 }
 
