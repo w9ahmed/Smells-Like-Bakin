@@ -1,0 +1,55 @@
+/* *****
+	MEDIA QUERIES
+
+	**** */
+
+
+
+@media screen and (max-width: 480px) {
+
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12 { width: 100%; }
+
+
+	#nav ul { margin: 5% 0;	}
+
+	#nav ul li {
+		float: left;
+		margin: 5% 0;
+	}
+
+	#nav ul li.about { width: 20%; }
+
+	#nav ul li.pricing { width: 50%; }
+
+	#nav ul li.locations { width: 30%; }
+
+	#nav ul li.contact {
+		width: 100%;
+		margin: 0;
+		font-size: 1em;
+	}
+
+	#intro-img, #about { display: none; }
+
+	#featured-cupcake, #new-cupcakes { margin: 5% 0; }
+
+	#new-cupcakes img { max-width: 95%; }
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+	
+}
